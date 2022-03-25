@@ -12,12 +12,13 @@ const loadingState = document.getElementById("loading-state");
 
 // transform state
 window.onload = () => {
+
+  // toggle state
   loadingState.style.display = "none";
   mainContent.style.display = "block";
-};
 
-// animations
-const splitChars = (text) =>
+  // animations
+  const splitChars = (text) =>
   text
     .split("")
     .map(
@@ -25,13 +26,13 @@ const splitChars = (text) =>
         `<span class="name-char" style="display: inline-block">${c}</span>`
     )
     .join("");
-name.innerHTML = splitChars(name.innerHTML);
-email.innerHTML = splitChars(email.innerHTML);
-phone.innerHTML = splitChars(phone.innerHTML);
-const profileAnime = anime.timeline({
+  name.innerHTML = splitChars(name.innerHTML);
+  email.innerHTML = splitChars(email.innerHTML);
+  phone.innerHTML = splitChars(phone.innerHTML);
+  const profileAnime = anime.timeline({
   direction: "alternate",
-});
-profileAnime
+  });
+  profileAnime
   .add({
     targets: "#profile-img",
     rotate: "3turn",
@@ -54,7 +55,7 @@ profileAnime
     color: "#fff",
     delay: anime.stagger(50, { start: 0 }),
   });
-projectContents.forEach((projectContent, index, listObj) => {
+  projectContents.forEach((projectContent, index, listObj) => {
   new Waypoint({
     element: projectContent,
     handler: function (direction) {
@@ -93,8 +94,8 @@ projectContents.forEach((projectContent, index, listObj) => {
     },
     offset: "75%",
   });
-});
-let blogWaypoint = new Waypoint({
+  });
+  let blogWaypoint = new Waypoint({
   element: blogContent,
   handler: function () {
     anime
@@ -125,8 +126,8 @@ let blogWaypoint = new Waypoint({
     this.destroy();
   },
   offset: "75%",
-});
-contactAnimates.forEach((val, index, list) => {
+  });
+  contactAnimates.forEach((val, index, list) => {
   let waypoint = new Waypoint({
     element: val,
     handler: function () {
@@ -145,9 +146,9 @@ contactAnimates.forEach((val, index, list) => {
     },
     offset: "90%",
   });
-});
+  });
 
-setInterval(() => {
+  setInterval(() => {
   anime({
     targets: "#send-btn",
     translateX: [0, -10],
@@ -157,4 +158,5 @@ setInterval(() => {
     duration: 30,
     loop: 10,
   });
-}, 5000);
+  }, 5000);
+};
