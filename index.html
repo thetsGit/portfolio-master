@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="./assets/images/logo.svg" />
+    <link rel="icon" href="./assets/images/icon.png" />
     <link rel="stylesheet" href="assets/css/mdb/mdb.min.css" />
     <link
       rel="stylesheet"
@@ -28,71 +28,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Portfolio.bs</title>
-
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Fraunces:wght@500&display=swap");
-      body {
-        background-color: #f4f4f4;
-        font-family: "Fira Sans", sans-serif;
-      }
-      h4,
-      h5,
-      h3,
-      h2,
-      h1 {
-        font-family: "Fraunces", serif;
-      }
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      .logo {
-        width: 3rem;
-        margin-top: 1rem;
-        align-self: flex-start;
-      }
-      .fs-sm {
-        font-size: 0.8rem;
-      }
-      .grid-box {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        align-items: center;
-        align-content: center;
-        grid-gap: 0.5rem;
-      }
-      .progress-fill {
-        height: 6px;
-        background: var(
-          --progressbar-fill,
-          linear-gradient(to right, #ffc107 0%, #fd7e14 100%)
-        );
-        width: 0%;
-        border-radius: 6px;
-      }
-      .project-tags > span {
-        display: inline-block;
-        margin-left: 0.5rem;
-      }
-      #loading-state {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 100vh;
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-      }
-      #main-content {
-        display: none;
-        padding: 3rem;
-      }
-    </style>
+    <title>Thet Lin Han</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <section id="loading-state">
@@ -116,92 +53,204 @@
                   id="profile-img"
                 />
                 <div class="mt-3">
-                  <h4 id="name">Thethan</h4>
-                  <div class="text-dark-50 text-muted">Front-end developer</div>
+                  <h4 id="name">Thet_Lin_Han</h4>
+                  <div class="text-dark-50 text-muted d-flex justify-content-between">
+                    <span>Web Developer</span>
+                    <div class="d-flex">
+                      <a href="https://www.linkedin.com/in/thet-lin-han-0a5693227/" class="social-wrap linkedin" data-bs-toggle="tooltip" data-bs-placement="top" title="projects' videos">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span class="linkedin-span"></span>
+                      </a>
+                      <a href="https://github.com/thetsGit" class="social-wrap github" data-bs-toggle="tooltip" data-bs-placement="top" title="projects' source code">
+                        <i class="fa-brands fa-github"></i>
+                        <span class="github-span"></span>
+                      </a>
+                    </div>
+                   </div>
                 </div>
                 <div class="my-3">
                   <div>
                     <i class="fas fa-envelope me-3"></i
-                    ><span id="email-me">han@example.com</span>
+                    ><span id="email-me">thethan.code@gmail.com</span>
                   </div>
                   <div>
                     <i class="fas fa-phone me-3"></i>
-                    <span id="phone-me">(+603) 324 435 526</span>
+                    <span id="phone-me">09 795375879</span>
                   </div>
                 </div>
                 <p class="text-align-left text-black-50">
-                  Self-motivated developer, who is willing to learn and create
-                  outstanding UI applications.
+                  A self motivated, paced and taught web developer with some experience in building dynamic websites. UI templates and design enthusiast. An Energetic one.
                 </p>
               </div>
 
-              <!-- experiences -->
-
+              <!-- education -->
               <div class="card p-3 mb-4 rounded-0 shadow-sm">
-                <h4 class="fw-normal mb-4">Experiences</h4>
+                <h4 class="fw-normal mb-4">Education</h4>
                 <div class="d-flex mb-4">
-                  <img
-                    src="assets/images/adidas.png"
-                    class="logo"
-                    alt="adidas logo"
-                  />
+                  <a href="https://www.facebook.com/UITMyanmar/" data-bs-toggle="tooltip" data-bs-placement="top" title="view UIT?">
+                    <img class="logo" alt="university of Information Technology logo" src="./assets/images/uit-logo.jpg" />
+                  </a>
                   <div class="ms-3">
-                    <div class="mb-3">
-                      <div class="text-muted fs-sm">
-                        Feb 2017 &middot; Current
-                      </div>
-                      <div class="fw-bold">Front-end developer</div>
+                    <div class="text-muted fs-sm">
+                      January 2019 &middot; December 2024
                     </div>
-                    <div class="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Dolorem magni et recusandae error facere temporibus.
-                    </div>
+                    <div class="fw-bold">BCSC web development, University of Information Technology</div>
                   </div>
                 </div>
+              </div>
+
+              <!-- internships -->
+              <div class="card p-3 mb-4 rounded-0 shadow-sm">
+                <h4 class="fw-normal mb-4">Internships</h4>
                 <div class="d-flex mb-4">
-                  <img
-                    src="assets/images/nasa.png"
-                    class="logo"
-                    alt="adidas logo"
-                  />
+                  <a href="https://www.nksoftwarehouse.com/" data-bs-toggle="tooltip" data-bs-placement="top" title="view NkSoftwareHouse?">
+                    <img class="logo" alt="NkSoftwareHouse logo" src="./assets/images/nksoftwarehouse.jpg" />
+                  </a>
                   <div class="ms-3">
                     <div class="mb-3">
                       <div class="text-muted fs-sm">
-                        Aug 2016 &middot; Feb 2018
+                        March 2022 &middot; May 2022
                       </div>
-                      <div class="fw-bold">Full-stack developer</div>
+                      <div class="fw-bold">Front-end Developer</div>
                     </div>
                     <div class="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Dolorem magni et recusandae error facere temporibus.
-                    </div>
-                  </div>
-                </div>
-                <div class="d-flex mb-4">
-                  <img
-                    src="assets/images/hnm.png"
-                    class="logo"
-                    alt="adidas logo"
-                  />
-                  <div class="ms-3">
-                    <div class="mb-3">
-                      <div class="text-muted fs-sm">
-                        Jun 2015 &middot; Aug 2016
-                      </div>
-                      <div class="fw-bold">Junior front-end developer</div>
-                    </div>
-                    <div class="text-muted">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Dolorem magni et recusandae error facere temporibus.
+                      Helped and integrated in Delivery System Application as a React Developer intern.
                     </div>
                   </div>
                 </div>
               </div>
+
+              <!-- certifications -->
+              <div class="card p-3 mb-4 rounded-0 shadow-sm">
+                <h4 class="fw-normal mb-4">Certifications</h4>
+                <!-- fso -->
+                <div class="d-flex mb-4">
+                  <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/d6725c83ba9613418a239d2ec6975648" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
+                    <img class="logo" alt="Helsinki university logo" src="./assets/images/certificates/fso2021.jpeg" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="mb-3">
+                      <div class="text-muted fs-sm">
+                        Dec 2021 &middot; Current
+                      </div>
+                      <div class="fw-bold">FullStackOpen@2021</div>
+                      <div class="text-muted">
+                        Achieved from University Of Helsinki
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- fcc -->
+                <div class="d-flex mb-4">
+                  <a href="https://www.freecodecamp.org/certification/fcc22e24e84-f8aa-40f6-9365-fa2ce692bb83/responsive-web-design" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
+                    <img class="logo" alt="freecodecamp logo" src="./assets/images/certificates/fcc.svg" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="mb-3">
+                      <div class="text-muted fs-sm">
+                        Feb 2022 &middot; Current
+                      </div>
+                      <div class="fw-bold">Responsive Web Development</div>
+                      <div class="text-muted">
+                        Achieved from FreeCodeCamp
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- coursera 3  -->
+                <div class="d-flex mb-4">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/JQSNCW2FG8RX?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
+                    <img class="logo" alt="Coursera logo" src="./assets/images/certificates/coursera.png" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="mb-3">
+                      <div class="text-muted fs-sm">
+                        July 2020 &middot; Current
+                      </div>
+                      <div class="fw-bold">Programming For Everybody</div>
+                      <div class="text-muted">
+                        Achieved from Coursera
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex mb-4">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/5GTJPM3L5WF2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
+                    <img class="logo" alt="Coursera logo" src="./assets/images/certificates/coursera.png" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="mb-3">
+                      <div class="text-muted fs-sm">
+                        October 2020 &middot; Current
+                      </div>
+                      <div class="fw-bold">Python Data Structures</div>
+                      <div class="text-muted">
+                        Achieved from Coursera
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex mb-4">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/BWXZLD9U8HMS?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
+                    <img class="logo" alt="Coursera logo" src="./assets/images/certificates/coursera.png" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="mb-3">
+                      <div class="text-muted fs-sm">
+                        November 2020 &middot; Current
+                      </div>
+                      <div class="fw-bold">Using Python To Access Web Data</div>
+                      <div class="text-muted">
+                        Achieved from Coursera
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- languages -->
+              <div class="card p-3 mb-4 rounded-0 shadow-sm">
+                <h4 class="fw-normal mb-4">Spoken Languages</h4>
+                <div class="d-flex mb-4 align-items-center">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/BWXZLD9U8HMS?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
+                    <img class="logo" alt="myanmar flag" src="./assets/images/flags/myanmar-flag.png" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="fw-bold">
+                      Burmese
+                    </div>
+                    <div class="d-flex star-wrap text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex mb-4">
+                  <a href="https://www.coursera.org/account/accomplishments/verify/BWXZLD9U8HMS?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
+                    <img class="logo" alt="american flag" src="./assets/images/flags/american-flag.webp" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="fw-bold">
+                    English
+                    </div>
+                    <div class="d-flex star-wrap text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star star-muted"></i>
+                      <i class="fa-solid fa-star star-muted"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
-            <div
-              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-2 px-lg-0 pe-md-0 px-0"
-            >
-              <!-- hobbies -->
+
+            <!-- Hobbies -->
+            <div class="col-lg-12 col-md-6 col-12 mx-0 ps-md-2 px-lg-0 pe-md-0 px-0">
               <div class="card p-3 mb-4 rounded-0 shadow-sm">
                 <h4 class="fw-normal mb-4">Hobbies</h4>
                 <div>
@@ -212,7 +261,6 @@
                   />
                   <div class="mb-4">
                     <div class="fw-bold">Gaming</div>
-                    <div class="text-black-50">Lorem ipsum dolor sit amet.</div>
                   </div>
                 </div>
                 <div>
@@ -223,7 +271,6 @@
                   />
                   <div class="mb-4">
                     <div class="fw-bold">Reading</div>
-                    <div class="text-black-50">Lorem ipsum dolor sit amet.</div>
                   </div>
                 </div>
                 <div>
@@ -234,7 +281,6 @@
                   />
                   <div class="mb-4">
                     <div class="fw-bold">Swimming</div>
-                    <div class="text-black-50">Lorem ipsum dolor sit amet.</div>
                   </div>
                 </div>
               </div>
@@ -243,14 +289,15 @@
         </aside>
 
         <main class="col-lg-8 col-md-12 col-12 mx-0 px-0">
-          <!-- skills -->
+          <!-- front & back skills -->
           <section class="row w-100 mx-0 px-2 mb-4" id="skill-section">
+
             <!-- front-end skills -->
             <div class="col-md-6 col-12 pe-md-2 ps-md-0 mx-0 px-0 mb-md-0 mb-3">
               <div class="card shadow-sm rounded-0 p-3 w-100">
                 <h5 class="mb-4">Front End</h5>
                 <div class="grid-box">
-                  <span>React</span>
+                  <span>HTML5</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
                     <div progress-bar data-percentage="80%">
@@ -266,10 +313,10 @@
                     </div>
                   </div>
 
-                  <span>Javascript</span>
+                  <span>CSS3</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="50%">
+                    <div progress-bar data-percentage="80%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -282,10 +329,10 @@
                     </div>
                   </div>
 
-                  <span>CSS</span>
+                  <span>JavaScript</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="45%">
+                    <div progress-bar data-percentage="75%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -298,10 +345,58 @@
                     </div>
                   </div>
 
-                  <span>Vue</span>
+                  <span>Bootstrap</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="63%">
+                    <div progress-bar data-percentage="85%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>React</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="70%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>MUI</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="65%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>NextJS</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="60%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -317,7 +412,7 @@
                   <span>Redux</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="76%">
+                    <div progress-bar data-percentage="40%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -330,10 +425,26 @@
                     </div>
                   </div>
 
-                  <span>React-native</span>
+                  <span>TypeScript</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="85%">
+                    <div progress-bar data-percentage="30%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>ReactNative</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="30%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -346,18 +457,70 @@
                     </div>
                   </div>
                 </div>
+
+                <h4 class="my-4">Design</h4>
+                <div class="grid-box">
+                  <span>AdobeXD</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="60%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>Animation</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="70%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>UI/UX</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="70%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
               </div>
             </div>
 
-            <!-- design skills -->
+            <!-- backend skills -->
             <div class="col-md-6 col-12 ps-md-2 pe-md-0 mx-0 px-0">
               <div class="card shadow-sm rounded-0 p-3 w-100">
-                <h5 class="mb-4">Design</h5>
+                <h5 class="mb-4">Backend</h5>
                 <div class="grid-box">
-                  <span>Figma</span>
+                  <span>Laravel</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="43%">
+                    <div progress-bar data-percentage="70%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -370,10 +533,10 @@
                     </div>
                   </div>
 
-                  <span>Photoshop</span>
+                  <span>PHP</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="78%">
+                    <div progress-bar data-percentage="60%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -386,10 +549,10 @@
                     </div>
                   </div>
 
-                  <span>AdobeXd</span>
+                  <span>MySql</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="72%">
+                    <div progress-bar data-percentage="60%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -402,10 +565,157 @@
                     </div>
                   </div>
 
-                  <span>Illustrator</span>
+                  <span>NodeJS</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="59%">
+                    <div progress-bar data-percentage="45%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>ExpressJS</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="55%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>MongoDB</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="30%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>RestAPIs</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="60%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>JWT</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="30%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <h4 class="my-4">Others</h4>
+                <div class="grid-box">
+                  <span>Git</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="60%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <span>Python</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="50%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>C</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="40%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>Linux</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="30%">
+                      <div class="progress-number">
+                        <div class="progress-number-mark">
+                          <span class="percent"></span>
+                          <span class="down-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="progress-bg">
+                        <div class="progress-fill"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <span>Shell Scripting</span>
+                  <!-- animated progress -->
+                  <div class="progressbar-item">
+                    <div progress-bar data-percentage="30%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -420,96 +730,162 @@
                 </div>
               </div>
             </div>
+
           </section>
 
           <section class="row w-100 mx-0 px-2">
             <!-- projects -->
             <div class="card p-3 mb-2 rounded-0 shadow-sm">
-              <div>Projects (3)</div>
+              <div>Personal projects (5)</div>
             </div>
-
-            <!-- coffee shop -->
+          
+            <!-- fashion shop -->
             <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-1">
               <div class="row w-100 mx-0 p-0">
-                <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img">
-                  <img src="assets/images/website3.jpg" alt="" class="w-100" />
+                <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img card p-1 shadow-md">
+                  <img src="assets/images/websites-ss/fashion-shop.jpg" alt="online fashion shop" class="w-100" />
                 </div>
-                <div class="col-md-7 col-12">
+                <div class="col-md-7 col-12 ps-3">
+                  <div class="text-muted fs-sm mb-3 mt-md-0 mt-3 project-tags">
+                    <span>#JavaScript</span>
+                    <span>#Axios</span>
+                    <span>#DomAPI</span>
+                    <span>#Bootstrap5</span>
+                    <span>#Animation</span>
+                    <span>#Responsive</span>
+                    <span>#PHP</span>
+                    <span>#Laravel8</span>
+                    <span>#MariaDB</span>
+                  </div>
+                  <div class="mb-4 project-content">
+                    <h4>Savannah (user panel + admin panel)</h4>
+                    <p class="text-black-50">
+                      <p>My first Laravel project from scratch.<br/>
+                      Below are some techs I've used.</p>
+                      
+
+                      <p>Frontend (user + admin)
+                        <ul>
+                          <li>html5 for frames, css3 and bootstrap5 for design</li>
+                          <li>anime.js, intersection observer for animations</li>
+                          <li>JavaScript, DomApi, to handle user interactions and axios for data fetching</li>
+                          <li>designed from scratch</li>
+                        </ul>
+                      </p>
+
+                      <p>
+                        Backend (user + panel)
+                        <ul>
+                          <li>PHP and Laravel8 to handle data</li>
+                          <li>MariaDB as DBMS to store data</li>
+                        </ul>
+                      </p>
+                      <p class="alert alert-info d-flex align-items-center">
+                        <i class="fa-solid fa-key me-3"></i>get admin account from my resume
+                      </p>
+                    </p>
+                  </div>
+                  <div class="project-btns d-flex justify-content-between mt-4">
+                    <div>
+                    <a href="https://morisco-quota.000webhostapp.com/" class="btn btn-warning px-4 rounded-0">Demo</a>
+                    <a href="https://github.com/thetsGit/online-shop" class="btn btn-outline-warning ms-1 px-4 rounded-0">
+                      Code
+                    </a>
+                    </div>
+                    <a href="https://www.linkedin.com/posts/thet-lin-han-0a5693227_javascript-php-laravel-activity-6901038134864281600-mFI2?utm_source=linkedin_share&utm_medium=member_desktop_web" class="play-wrap" data-bs-toggle="tooltip" data-bs-placement="top" title="watch video?">
+                      <i class="fa-solid fa-play play-icon"></i>
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- healthy -->
+             <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-2">
+              <div class="row w-100 mx-0 p-0">
+                <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img card p-1 shadow-md">
+                  <img src="assets/images/websites-ss/healthy.png" alt="food recipe app" class="w-100" />
+                </div>
+                <div class="col-md-7 col-12 ps-3">
+                  <div class="text-muted fs-sm mb-3 mt-md-0 mt-3 project-tags">
+                    <span>#NextJS </span><span>#ReactJS </span
+                    ><span>#Styled-components</span>
+                    ><span>#Framer-motion</span>
+                    ><span>#Responsive</span>
+                  </div>
+                  <div class="mb-4 project-content">
+                    <h4>Healthy (your diet partner)</h4>
+                    <p class="text-black-50">
+                      <p>Super wonderful food recipe application landing page with a bunch of mind-blowing animations implemented in NextJS and Framer-motion.</p>
+                      <p>This website is written in fully css3 and fully responsive as well. I'd bet it's somewhat challenging when it comes to its responsive part. Don't forget to enjoy the animations<i class="fa-solid fa-heart ms-2 text-danger"></i></p>
+                  </div>
+                  <div class="project-btns d-flex justify-content-between mt-4">
+                    <div>
+                    <a href="https://healthy-ten.vercel.app" class="btn btn-warning px-4 rounded-0">Demo</a>
+                    <a href="https://github.com/thetsGit/Healthy" class="btn btn-outline-warning ms-1 px-4 rounded-0">
+                      Code
+                    </a>
+                    </div>
+                    <a href="https://www.linkedin.com/posts/thet-lin-han-0a5693227_responsivewebsite-nextjs-reactjs-activity-6909145313551249410-LrlL?utm_source=linkedin_share&utm_medium=member_desktop_web" class="play-wrap" data-bs-toggle="tooltip" data-bs-placement="top" title="watch video?">
+                      <i class="fa-solid fa-play play-icon"></i>
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- Xplore -->
+             <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-1">
+              <div class="row w-100 mx-0 p-0">
+                <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img card p-1 shadow-md">
+                  <img src="assets/images/websites-ss/fashion-shop.png" alt="online fashion shop" class="w-100" />
+                </div>
+                <div class="col-md-7 col-12 ps-3">
                   <div class="text-muted fs-sm mb-3 mt-md-0 mt-3 project-tags">
                     <span>#VueJS </span><span>#TailwindCSS </span
                     ><span>#Responsive</span>
                   </div>
                   <div class="mb-4 project-content">
-                    <h4>Coffee Lovers</h4>
+                    <h4>Savannah (user panel + admin panel)</h4>
                     <p class="text-black-50">
-                      In this project, I work with HTML and CSS to create a
-                      responsive page. Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit.
-                    </p>
-                  </div>
-                  <div class="project-btns">
-                    <button class="btn btn-warning px-4 rounded-0">Demo</button>
-                    <button class="btn btn-outline-warning ms-1 px-4 rounded-0">
-                      Code
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+                      <p>My first Laravel project from scratch.<br/>
+                      Below are some techs I've used.</p>
+                      
 
-            <!-- shoe shop -->
-            <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-2">
-              <div class="row w-100 mx-0 p-0">
-                <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img">
-                  <img src="assets/images/website2.jpg" alt="" class="w-100" />
-                </div>
-                <div class="col-md-7 col-12">
-                  <div class="text-muted fs-sm mb-3 mt-md-0 mt-3 project-tags">
-                    <span>#MongoDB </span><span>#MaterialBS </span
-                    ><span>#Django </span>
-                  </div>
-                  <div class="mb-4 project-content">
-                    <h4>Elite Wears</h4>
-                    <p class="text-black-50">
-                      In this project, I work with HTML and CSS to create a
-                      responsive page. Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit.
-                    </p>
-                  </div>
-                  <div class="project-btns">
-                    <button class="btn btn-warning px-4 rounded-0">Demo</button>
-                    <button class="btn btn-outline-warning ms-1 px-4 rounded-0">
-                      Code
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+                      <p>Frontend (user + admin)
+                        <ul>
+                          <li>html5 for frames, css3 and bootstrap5 for design</li>
+                          <li>anime.js, intersection observer for animations</li>
+                          <li>JavaScript, DomApi, to handle user interactions and axios for data fetching</li>
+                          <li>designed from scratch</li>
+                        </ul>
+                      </p>
 
-            <!-- woman wears -->
-            <div class="card p-3 mb-4 rounded-0 shadow-sm" id="project-3">
-              <div class="row w-100 mx-0 p-0">
-                <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img">
-                  <img src="assets/images/website1.jpg" alt="" class="w-100" />
-                </div>
-                <div class="col-md-7 col-12">
-                  <div class="text-muted fs-sm mb-3 mt-md-0 mt-3 project-tags">
-                    <span>#MariaDB </span><span>#Laravel </span
-                    ><span>#ReactJS </span>
-                  </div>
-                  <div class="mb-4 project-content">
-                    <h4>Winter collections</h4>
-                    <p class="text-black-50">
-                      In this project, I work with HTML and CSS to create a
-                      responsive page. Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit.
+                      <p>
+                        Backend (user + panel)
+                        <ul>
+                          <li>PHP and Laravel8 to handle data</li>
+                          <li>MariaDB as DBMS to store data</li>
+                        </ul>
+                      </p>
+                      <p class="alert alert-info d-flex align-items-center">
+                        <i class="fa-solid fa-key me-3"></i>get admin account from my resume
+                      </p>
                     </p>
                   </div>
-                  <div class="project-btns">
-                    <button class="btn btn-warning px-4 rounded-0">Demo</button>
-                    <button class="btn btn-outline-warning ms-1 px-4 rounded-0">
+                  <div class="project-btns d-flex justify-content-between mt-4">
+                    <div>
+                    <a href="https://morisco-quota.000webhostapp.com/" class="btn btn-warning px-4 rounded-0">Demo</a>
+                    <a href="https://github.com/thetsGit/online-shop" class="btn btn-outline-warning ms-1 px-4 rounded-0">
                       Code
-                    </button>
+                    </a>
+                    </div>
+                    <a href="https://www.linkedin.com/posts/thet-lin-han-0a5693227_javascript-php-laravel-activity-6901038134864281600-mFI2?utm_source=linkedin_share&utm_medium=member_desktop_web" class="play-wrap" data-bs-toggle="tooltip" data-bs-placement="top" title="watch video?">
+                      <i class="fa-solid fa-play play-icon"></i>
+                      <span></span>
+                    </a>
                   </div>
                 </div>
               </div>

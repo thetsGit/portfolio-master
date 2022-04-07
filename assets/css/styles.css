@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Fraunces:wght@500&display=swap");
+body {
+  background-color: #f4f4f4;
+  font-family: "Fira Sans", sans-serif;
+}
+h4,
+h5,
+h3,
+h2,
+h1 {
+  font-family: "Fraunces", serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 3rem;
+  margin-top: 1rem;
+  align-self: flex-start;
+}
+.fs-sm {
+  font-size: 0.8rem;
+}
+.grid-box {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  align-content: center;
+  grid-gap: 0.5rem;
+}
+.progress-fill {
+  height: 6px;
+  background: var(
+    --progressbar-fill,
+    linear-gradient(to right, #ffc107 0%, #fd7e14 100%)
+  );
+  width: 0%;
+  border-radius: 6px;
+}
+.project-tags > span {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+#loading-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#main-content {
+  display: none;
+  padding: 3rem;
+}
+.social-wrap, .play-wrap {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-right: .5rem;
+    transition: all ease-in 1s;
+    position: relative;
+    overflow: hidden;
+}
+.social-wrap:hover {
+    transform: scale(1.1);
+}
+.linkedin > i, .github > i {
+    z-index: 3;
+    transition: all ease-in-out 1s;
+}
+.linkedin {
+    background-color: #e3f2fd;
+    color: #2196f3;
+}
+.github {
+    background-color: #f3e5f5;
+    color: #7b1fa2;
+}
+.star-wrap > *:not(:first-child) {
+    margin-left: .3rem;
+}
+.star-muted {
+    opacity: .4;
+}
+.play-wrap {
+    width: 3rem;
+    height: 3rem;
+    background-color: #e3f2fd;
+    color: #2196f3;
+}
+.play-icon {
+    z-index: 3;
+    color: #2196f3;
+    transition: all ease-in-out 1s;
+}
+.play-wrap > span, .social-wrap > span {
+    z-index: 2;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #2196f3;
+    transition: all ease-in-out 1s;
+}
+.social-wrap > span {
+    left: 1rem;
+    top: 1rem;
+}
+.social-wrap > .github-span {
+    background-color: #7b1fa2;
+}
+.social-wrap > .linkedin-span {
+    background-color: #2196f3;
+}
+.play-wrap:hover > span, .social-wrap:hover > span {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.play-wrap:hover > .play-icon, .social-wrap:hover > i {
+    color: #fff;
+    transform: scale(1.2) rotate(360deg);
+}
