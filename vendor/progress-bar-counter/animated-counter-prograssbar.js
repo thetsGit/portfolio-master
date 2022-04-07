@@ -12,7 +12,7 @@ window.addEventListener("load", () => {
     // configure observer
     const options = {
         rootMargin: '0px',
-        threshold: 1.0
+        threshold: .1
     }
 
     // establish observer
