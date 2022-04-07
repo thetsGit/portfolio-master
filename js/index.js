@@ -9,6 +9,7 @@ const phone = document.getElementById("phone-me");
 const projectContents = document.querySelectorAll(".project-content");
 const contactAnimates = document.querySelectorAll(".contact-animate");
 const loadingState = document.getElementById("loading-state");
+const projectDates = document.querySelectorAll(".project-date");
 
   // toggle state
   loadingState.style.display = "none";
@@ -85,6 +86,15 @@ const loadingState = document.getElementById("loading-state");
               translateY: [100, 0],
             },
             1000
+          )
+          .add(
+            {
+              targets: `#project-${index + 1} .project-date`,
+              rotate: "360deg",
+              opacity: [0,1],
+              translateX: [500, 0],
+            },
+            1000
           );
       }
       this.destroy();
@@ -93,28 +103,11 @@ const loadingState = document.getElementById("loading-state");
   });
   });
 
-  contactAnimates.forEach((val, index, list) => {
-  let waypoint = new waypoint({
-    element: val,
-    handler: function () {
-      anime({
-        targets: `.contact-animate.animate-${index + 1}`,
-        translateX: [1000, 0],
-        opacity: [0, 1],
-        duration: 3000,
-        // delay: 300,
-      });
-      this.destroy();
-      console.log(
-        "hello",
-        document.querySelector(`.contact-animate.animate-${index + 1}`)
-      );
-    },
-    offset: "90%",
-  });
-  });
+  console.log("Hello! This is Thethan.");
+  console.log("Nice to meet ya.");
+  console.log("You can get the source code via my github<3");
+  console.log("Have a good day.");
 
-  console.log("hello");
   new VenoBox({
     selector: ".venobox",
     spinner: "wander",

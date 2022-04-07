@@ -52,7 +52,6 @@ window.addEventListener("load", () => {
                 
                 })(jQuery);
             }
-            console.log("Intersected !!!");
         })
     }, options);
     observer.observe(skillSection);
