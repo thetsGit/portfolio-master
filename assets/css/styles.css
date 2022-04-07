@@ -41,7 +41,7 @@ h1 {
   width: 0%;
   border-radius: 6px;
 }
-.project-tags > span {
+.project-tags > span:not(:first-child) {
   display: inline-block;
   margin-left: 0.5rem;
 }

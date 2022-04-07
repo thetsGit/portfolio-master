@@ -28,6 +28,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="vendor/VenoBox-master/dist/venobox.min.css" type="text/css" media="screen" />
     <title>Thet Lin Han</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
@@ -53,7 +54,7 @@
                   id="profile-img"
                 />
                 <div class="mt-3">
-                  <h4 id="name">Thet_Lin_Han</h4>
+                  <h4 id="name">Thet_lin_han</h4>
                   <div class="text-dark-50 text-muted d-flex justify-content-between">
                     <span>Web Developer</span>
                     <div class="d-flex">
@@ -285,6 +286,11 @@
                 </div>
               </div>
             </div>
+
+            <!-- credit -->
+            <div class="card p-4">
+              <p class="p-0 m-0"><i class="fa-solid fa-quote-left me-2"></i>Life's too short there're so many things we hafta tho. Let's be honest, you haven't been happy tho you should have been<i class="fa-solid fa-quote-right ms-2"></i></p>
+            </div>
           </div>
         </aside>
 
@@ -332,7 +338,7 @@
                   <span>JavaScript</span>
                   <!-- animated progress -->
                   <div class="progressbar-item">
-                    <div progress-bar data-percentage="75%">
+                    <div progress-bar data-percentage="80%">
                       <div class="progress-number">
                         <div class="progress-number-mark">
                           <span class="percent"></span>
@@ -743,10 +749,12 @@
             <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-1">
               <div class="row w-100 mx-0 p-0">
                 <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img card p-1 shadow-md">
-                  <img src="assets/images/websites-ss/fashion-shop.jpg" alt="online fashion shop" class="w-100" />
+                  <a class="venobox" href="assets/images/websites-ss/fashion-shop.jpg" data-gall="myGallery">
+                    <img src="assets/images/websites-ss/fashion-shop.jpg" alt="online fashion shop" class="w-100" />
+                  </a> 
                 </div>
-                <div class="col-md-7 col-12 ps-3">
-                  <div class="text-muted fs-sm mb-3 mt-md-0 mt-3 project-tags">
+                <div class="col-md-7 col-12 ps-3 d-flex flex-column justify-content-center">
+                  <div class="text-muted fs-sm mb-1 mt-md-0 mt-3 project-tags">
                     <span>#JavaScript</span>
                     <span>#Axios</span>
                     <span>#DomAPI</span>
@@ -756,6 +764,9 @@
                     <span>#PHP</span>
                     <span>#Laravel8</span>
                     <span>#MariaDB</span>
+                  </div>
+                  <div class="text-info fs-sm mb-3">
+                    Nov 2021 &middot; Dec 2021
                   </div>
                   <div class="mb-4 project-content">
                     <h4>Savannah (user panel + admin panel)</h4>
@@ -785,7 +796,7 @@
                       </p>
                     </p>
                   </div>
-                  <div class="project-btns d-flex justify-content-between mt-4">
+                  <div class="project-btns d-flex justify-content-between">
                     <div>
                     <a href="https://morisco-quota.000webhostapp.com/" class="btn btn-warning px-4 rounded-0">Demo</a>
                     <a href="https://github.com/thetsGit/online-shop" class="btn btn-outline-warning ms-1 px-4 rounded-0">
@@ -805,22 +816,28 @@
              <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-2">
               <div class="row w-100 mx-0 p-0">
                 <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img card p-1 shadow-md">
-                  <img src="assets/images/websites-ss/healthy.png" alt="food recipe app" class="w-100" />
+                  <a class="venobox" href="assets/images/websites-ss/healthy.png" data-gall="myGallery">
+                    <img src="assets/images/websites-ss/healthy.png" alt="food recipe app" class="w-100" />
+                  </a>
+                  
                 </div>
-                <div class="col-md-7 col-12 ps-3">
-                  <div class="text-muted fs-sm mb-3 mt-md-0 mt-3 project-tags">
+                <div class="col-md-7 col-12 ps-3 d-flex flex-column justify-content-center">
+                  <div class="text-muted fs-sm mb-1 mt-md-0 mt-3 project-tags">
                     <span>#NextJS </span><span>#ReactJS </span
                     ><span>#Styled-components</span>
-                    ><span>#Framer-motion</span>
-                    ><span>#Responsive</span>
+                    <span>#Framer-motion</span>
+                    <span>#Responsive</span>
+                  </div>
+                  <div class="text-info fs-sm mb-3">
+                    Feb 2022 &middot; Mar 2022
                   </div>
                   <div class="mb-4 project-content">
                     <h4>Healthy (your diet partner)</h4>
                     <p class="text-black-50">
                       <p>Super wonderful food recipe application landing page with a bunch of mind-blowing animations implemented in NextJS and Framer-motion.</p>
-                      <p>This website is written in fully css3 and fully responsive as well. I'd bet it's somewhat challenging when it comes to its responsive part. Don't forget to enjoy the animations<i class="fa-solid fa-heart ms-2 text-danger"></i></p>
+                      <p>This website is written in fully css3 and fully responsive as well. I'd bet it's somewhat challenging when it comes to its responsive part. Don't forget to enjoy the animations.</p>
                   </div>
-                  <div class="project-btns d-flex justify-content-between mt-4">
+                  <div class="project-btns d-flex justify-content-between">
                     <div>
                     <a href="https://healthy-ten.vercel.app" class="btn btn-warning px-4 rounded-0">Demo</a>
                     <a href="https://github.com/thetsGit/Healthy" class="btn btn-outline-warning ms-1 px-4 rounded-0">
@@ -837,52 +854,38 @@
             </div>
 
              <!-- Xplore -->
-             <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-1">
+             <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-3">
               <div class="row w-100 mx-0 p-0">
                 <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img card p-1 shadow-md">
-                  <img src="assets/images/websites-ss/fashion-shop.png" alt="online fashion shop" class="w-100" />
+                  <a class="venobox" href="assets/images/websites-ss/xplore.png" data-gall="myGallery">
+                    <img src="assets/images/websites-ss/xplore.png" alt="xplore website" class="w-100" />
+                  </a>
                 </div>
-                <div class="col-md-7 col-12 ps-3">
-                  <div class="text-muted fs-sm mb-3 mt-md-0 mt-3 project-tags">
-                    <span>#VueJS </span><span>#TailwindCSS </span
+                <div class="col-md-7 col-12 ps-3 d-flex flex-column justify-content-center">
+                  <div class="text-muted fs-sm mt-md-0 mb-1 mt-3 project-tags">
+                    <span>#ReactJS </span><span>#Styled-components </span
                     ><span>#Responsive</span>
+                    <span>#Gsap</span>
+                    <span>#Animation</span>
+                  </div>
+                  <div class="text-info fs-sm mb-3">
+                    Jan 2022 &middot; Feb 2022
                   </div>
                   <div class="mb-4 project-content">
-                    <h4>Savannah (user panel + admin panel)</h4>
+                    <h4>Xplore (travel agency)</h4>
                     <p class="text-black-50">
-                      <p>My first Laravel project from scratch.<br/>
-                      Below are some techs I've used.</p>
-                      
-
-                      <p>Frontend (user + admin)
-                        <ul>
-                          <li>html5 for frames, css3 and bootstrap5 for design</li>
-                          <li>anime.js, intersection observer for animations</li>
-                          <li>JavaScript, DomApi, to handle user interactions and axios for data fetching</li>
-                          <li>designed from scratch</li>
-                        </ul>
-                      </p>
-
-                      <p>
-                        Backend (user + panel)
-                        <ul>
-                          <li>PHP and Laravel8 to handle data</li>
-                          <li>MariaDB as DBMS to store data</li>
-                        </ul>
-                      </p>
-                      <p class="alert alert-info d-flex align-items-center">
-                        <i class="fa-solid fa-key me-3"></i>get admin account from my resume
-                      </p>
-                    </p>
+                      <p>Landing page for travel agency company with compelling design and images implemented in React and Gsap.</p>
+                      <p>Fully pure css and fully responsive website with deadly scrollbased animations and compact user interface.</p>
+                   
                   </div>
-                  <div class="project-btns d-flex justify-content-between mt-4">
+                  <div class="project-btns d-flex justify-content-between">
                     <div>
-                    <a href="https://morisco-quota.000webhostapp.com/" class="btn btn-warning px-4 rounded-0">Demo</a>
-                    <a href="https://github.com/thetsGit/online-shop" class="btn btn-outline-warning ms-1 px-4 rounded-0">
+                    <a href="https://www.xplore13.ml" class="btn btn-warning px-4 rounded-0">Demo</a>
+                    <a href="https://github.com/thetsGit/travel-agency" class="btn btn-outline-warning ms-1 px-4 rounded-0">
                       Code
                     </a>
                     </div>
-                    <a href="https://www.linkedin.com/posts/thet-lin-han-0a5693227_javascript-php-laravel-activity-6901038134864281600-mFI2?utm_source=linkedin_share&utm_medium=member_desktop_web" class="play-wrap" data-bs-toggle="tooltip" data-bs-placement="top" title="watch video?">
+                    <a href="https://www.linkedin.com/posts/thet-lin-han-0a5693227_reactjs-styledcomponents-sass-activity-6900648636015894528-LgmO?utm_source=linkedin_share&utm_medium=member_desktop_web" class="play-wrap" data-bs-toggle="tooltip" data-bs-placement="top" title="watch video?">
                       <i class="fa-solid fa-play play-icon"></i>
                       <span></span>
                     </a>
@@ -891,7 +894,80 @@
               </div>
             </div>
 
-            <!-- blogs -->
+            <!-- Facebit -->
+            <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-3">
+              <div class="row w-100 mx-0 p-0">
+                <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img card p-1 shadow-md">
+                  <a class="venobox" href="assets/images/websites-ss/facebook-logo.webp" data-gall="myGallery">
+                    <img src="assets/images/websites-ss/facebook-logo.webp" alt="facebook logo" class="w-100" />
+                  </a>
+                </div>
+                <div class="col-md-7 col-12 ps-3 d-flex flex-column justify-content-center">
+                  <div class="text-muted fs-sm mt-md-0 mb-1 mt-3 project-tags">
+                    <span>#HTML5</span><span>#CSS3</span
+                    ><span>#Responsive</span>
+                    <span>#Animation</span>
+                  </div>
+                  <div class="text-info fs-sm mb-3">
+                    Sep 2022 &middot; Oct 2022
+                  </div>
+                  <div class="mb-4 project-content">
+                    <h4>Facebit (facebook ui)</h4>
+                    <p class="text-black-50">
+                      <p>In this project, you will see my detailed-oriented personality and my work attitude.</p>
+                      <p>It's my very first pure css responsive front-end project with lots of memories.</p>
+                  </div>
+                  <div class="project-btns d-flex justify-content-between mt-4">
+                    <div>
+                    <a href="https://thetsgit.github.io/fb_ui/" class="btn btn-warning px-4 rounded-0">Demo</a>
+                    <a href="https://github.com/thetsGit/fb_ui" class="btn btn-outline-warning ms-1 px-4 rounded-0">
+                      Code
+                    </a>
+                    </div>
+                    <a href="https://www.linkedin.com/posts/thet-lin-han-0a5693227_html5-css3-responsive-activity-6901186145527443456-B-ad?utm_source=linkedin_share&utm_medium=member_desktop_web" class="play-wrap" data-bs-toggle="tooltip" data-bs-placement="top" title="watch video?">
+                      <i class="fa-solid fa-play play-icon"></i>
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- adobexd project -->
+            <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-3">
+              <div class="row w-100 mx-0 p-0">
+                <div class="col-md-5 col-12 p-0 m-0 rounded-0 project-img card p-1 shadow-md">
+                  <a class="venobox" href="assets/images/websites-ss/cinema-booking.jpeg" data-gall="myGallery">
+                    <img src="assets/images/websites-ss/cinema-booking.jpeg" alt="cinema booking prototype" class="w-100" />
+                  </a>
+                </div>
+                <div class="col-md-7 col-12 ps-3 d-flex flex-column justify-content-center">
+                  <div class="text-muted fs-sm mt-md-0 mb-1 mt-3 project-tags">
+                    <span>#AdobeXD </span>
+                    <span>#Animation</span>
+                  </div>
+                  <div class="text-info fs-sm mb-3">
+                    Aug 2021 &middot; Aug 2021
+                  </div>
+                  <div class="mb-4 project-content">
+                    <h4>CinieBookie (cinema booking app ui)</h4>
+                    <p class="text-black-50">
+                      <p>It's my very first AdobeXD project. Cinema booking app for ios.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- more -->
+             <div class="card p-3 mb-2 rounded-0 shadow-sm" id="project-3">
+              <h4>More<i class="fa-solid fa-circle-question ms-2 text-info"></i></h4>
+              <p>There're a couple of projects left. I would appreciate if you would like to check via my <a href="https://github.com/thetsGit">github</a>.
+              <br/>
+              Thanks for your time<i class="fa-solid fa-heart ms-2 text-danger"></i>
+              </p>
+            </div>
+
+            <!-- blogs
             <div class="card p-3 mb-2 rounded-0 shadow-sm">
               <div>Blogs (1)</div>
             </div>
@@ -931,9 +1007,9 @@
                   />
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <!-- contact form -->
+            <!-- contact form
             <div class="card p-3 mb-2 rounded-0 shadow-sm" id="contact-section">
               <h4 class="mb-4 contact-animate animate-1" id="contact-title">
                 Contact Me
@@ -994,7 +1070,7 @@
                   </button>
                 </div>
               </form>
-            </div>
+            </div> -->
           </section>
         </main>
       </section>
@@ -1018,6 +1094,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./js/index.js"></script>
+    <script type="text/javascript" src="vendor/VenoBox-master/dist/venobox.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>
