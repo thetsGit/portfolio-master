@@ -7,9 +7,10 @@
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
-
+    <meta name="description" content="Thet Lin Han's Portfolio">
     <link rel="icon" href="./assets/images/icon.png" />
     <link rel="stylesheet" href="assets/css/mdb/mdb.min.css" />
+    <meta name="author" content="Thethan">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -33,12 +34,36 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+
+    <!-- loading state -->
     <section id="loading-state">
       <div class="spinner-grow text-warning" role="status">
         <span class="visually-hidden">Loading...</span>
       </div>
     </section>
     <section class="container-xxl px-0 my-3" id="main-content">
+
+      <!-- floating navigator -->
+      <nav class="nav-wrap">
+        <section class="nav-wrap--main-wrap">
+          <section class="nav-wrap--main-btn-wrap">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </section>
+          <ul class="nav-wrap--main-content">
+            <li class="nav-item"><a class="nav-link" href="#profile" data-bs-toggle="tooltip" data-bs-placement="left" title="Profile"><i class="fa-solid fa-user-ninja"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills" data-bs-toggle="tooltip" data-bs-placement="left" title="Skills"><i class="fa-solid fa-bars-progress"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#education" data-bs-toggle="tooltip" data-bs-placement="left" title="Education"><i class="fa-solid fa-graduation-cap"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#internships" data-bs-toggle="tooltip" data-bs-placement="left" title="Internships"><i class="fa-solid fa-briefcase"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#hobbies" data-bs-toggle="tooltip" data-bs-placement="left" title="Hobbies"><i class="fa-solid fa-person-swimming"></i><span class="count-wrap">3</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#certificates" data-bs-toggle="tooltip" data-bs-placement="left" title="Certificates"><i class="fa-solid fa-copy"></i><span class="count-wrap">5</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#languages" data-bs-toggle="tooltip" data-bs-placement="left" title="Languages"><i class="fa-solid fa-language"></i><span class="count-wrap">2</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects" data-bs-toggle="tooltip" data-bs-placement="left" title="Personal Projects"><i class="fa-solid fa-code"></i><span class="count-wrap">5</span></a></li>
+            <li class="indicator"></li>
+          </ul>
+        </section>
+      </nav>
+
+      <!-- main content -->
       <section class="row w-100 mx-0 px-0">
         <aside class="col-lg-4 col-12 mx-0 px-2">
           <div class="row mx-0 px-0 w-100">
@@ -46,7 +71,7 @@
               class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0"
             >
               <!-- profile -->
-              <div class="card p-3 mb-4 rounded-0 shadow-sm">
+              <div class="card p-3 mb-4 rounded-0 shadow-sm" id="profile">
                 <img
                   src="assets/images/profile.jpg"
                   alt="a speckey in black and white"
@@ -54,7 +79,7 @@
                   id="profile-img"
                 />
                 <div class="mt-3">
-                  <h4 id="name">Thet_lin_han</h4>
+                  <h4 id="name">Mr.Thet_lin_han</h4>
                   <div class="text-dark-50 text-muted d-flex justify-content-between">
                     <span>Web Developer</span>
                     <div class="d-flex">
@@ -85,7 +110,7 @@
               </div>
 
               <!-- education -->
-              <div class="card p-3 mb-4 rounded-0 shadow-sm">
+              <div class="card p-3 mb-4 rounded-0 shadow-sm" id="education">
                 <h4 class="fw-normal mb-4">Education</h4>
                 <div class="d-flex mb-4">
                   <a href="https://www.facebook.com/UITMyanmar/" data-bs-toggle="tooltip" data-bs-placement="top" title="view UIT?">
@@ -101,7 +126,7 @@
               </div>
 
               <!-- internships -->
-              <div class="card p-3 mb-4 rounded-0 shadow-sm">
+              <div class="card p-3 mb-4 rounded-0 shadow-sm" id="internships">
                 <h4 class="fw-normal mb-4">Internships</h4>
                 <div class="d-flex mb-4">
                   <a href="https://www.nksoftwarehouse.com/" data-bs-toggle="tooltip" data-bs-placement="top" title="view NkSoftwareHouse?">
@@ -122,7 +147,7 @@
               </div>
 
               <!-- certifications -->
-              <div class="card p-3 mb-4 rounded-0 shadow-sm">
+              <div class="card p-3 mb-4 rounded-0 shadow-sm" id="certificates">
                 <h4 class="fw-normal mb-4">Certifications</h4>
                 <!-- fso -->
                 <div class="d-flex mb-4">
@@ -210,7 +235,7 @@
               </div>
 
               <!-- languages -->
-              <div class="card p-3 mb-4 rounded-0 shadow-sm">
+              <div class="card p-3 mb-4 rounded-0 shadow-sm" id="languages">
                 <h4 class="fw-normal mb-4">Spoken Languages</h4>
                 <div class="d-flex mb-4 align-items-center">
                   <a href="https://en.wikipedia.org/wiki/Burmese_language" data-bs-toggle="tooltip" data-bs-placement="top" title="explore burmese?">
@@ -251,7 +276,7 @@
             </div>
 
             <!-- Hobbies -->
-            <div class="col-lg-12 col-md-6 col-12 mx-0 ps-md-2 px-lg-0 pe-md-0 px-0">
+            <div class="col-lg-12 col-md-6 col-12 mx-0 ps-md-2 px-lg-0 pe-md-0 px-0" id="hobbies">
               <div class="card p-3 mb-4 rounded-0 shadow-sm">
                 <h4 class="fw-normal mb-4">Hobbies</h4>
                 <div>
@@ -288,7 +313,7 @@
             </div>
 
             <!-- credit -->
-            <div class="card p-4">
+            <div class="card p-4 mb-4">
               <p class="p-0 m-0"><i class="fa-solid fa-quote-left me-2"></i>Life's too cryptic & short there're a bunch of things we hafta tho. Let's be honest, you haven't been happy tho you should have been<i class="fa-solid fa-quote-right ms-2"></i></p>
             </div>
           </div>
@@ -296,7 +321,7 @@
 
         <main class="col-lg-8 col-md-12 col-12 mx-0 px-0">
           <!-- front & back skills -->
-          <section class="row w-100 mx-0 px-2 mb-4" id="skill-section">
+          <section class="row w-100 mx-0 px-2 mb-4" id="skills">
 
             <!-- front-end skills -->
             <div class="col-md-6 col-12 pe-md-2 ps-md-0 mx-0 px-0 mb-md-0 mb-3">
@@ -741,7 +766,7 @@
 
           <section class="row w-100 mx-0 px-2">
             <!-- projects -->
-            <div class="card p-3 mb-2 rounded-0 shadow-sm">
+            <div class="card p-3 mb-2 rounded-0 shadow-sm" id="projects">
               <div>Personal projects (5)</div>
             </div>
           
@@ -771,8 +796,8 @@
                   <div class="mb-4 project-content">
                     <h4>Savannah (user panel + admin panel)</h4>
                     <p class="text-black-50">
-                      <p>My first Laravel project from scratch.<br/>
-                      Below are some techs I've used.</p>
+                      <p>Fashion online shop project selling latest fashion products to various age-groups, offering lots of features like making orders, authentication, authorization, dashboard data analysis, favouriting, liking, commenting, photo uploading and admin dashboard implemented in Laravel 8.</p>
+                      <p>Below are some techs I've used.</p>
                       
 
                       <p>Frontend (user + admin)

@@ -7,7 +7,7 @@
 // console.log("hello");
 window.addEventListener("load", () => {
 
-    const skillSection = document.getElementById("skill-section");
+    const skillSection = document.getElementById("skills");
     
     // configure observer
     const options = {
