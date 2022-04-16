@@ -314,4 +314,10 @@ h1 {
   align-items: center;
 }
 
+.project-image {
+  filter: blur(3px);
+}
 
+.project-image:hover {
+  filter: none;
+}

@@ -14,6 +14,8 @@ const modeControl = document.getElementById("mode-wrap");
 const sun = document.getElementById("sun");
 const moon = document.getElementById("moon");
 const profileImage = document.getElementById("profile-img");
+const sheets = document.querySelectorAll(".sheet-me");
+const education = document.getElementById("internships");
 
   // toggle state
   loadingState.style.display = "none";
@@ -75,6 +77,26 @@ const profileImage = document.getElementById("profile-img");
     scale: 1.2,
     delay: anime.stagger(50, { start: 0 }),
   });
+
+  sheets.forEach((sheet, index, listObj) => {
+    new Waypoint({
+      element: sheet,
+      handler: (direction) => {
+        if (direction === "down") {
+          anime({
+            targets: sheet,
+            translateX: ["-100%", 0],
+            rotateX: ["-360deg", 0],
+            rotateY: ["-360deg", 0]
+            
+          })
+        }
+        // this.destroy();
+      },
+      offset: "75%"
+    })
+  });
+
   projectContents.forEach((projectContent, index, listObj) => {
   new Waypoint({
     element: projectContent,
