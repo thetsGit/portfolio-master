@@ -46,8 +46,8 @@
       <!-- floating navigator -->
       <nav class="nav-wrap">
         <section class="nav-wrap--main-wrap">
-          <section class="nav-wrap--main-btn-wrap">
-            <i class="fa-solid fa-map-location-dot"></i>
+          <section class="nav-wrap--main-btn-wrap" data-bs-toggle="tooltip" data-bs-placement="left" title="To Navigate">
+            <!-- <img src="assets/images/luffy-head.jpg" id="luffy-head" alt="luffy head"> -->
           </section>
           <ul class="nav-wrap--main-content">
             <li class="nav-item"><a class="nav-link" href="#profile" data-bs-toggle="tooltip" data-bs-placement="left" title="Profile"><i class="fa-solid fa-user-ninja"></i></a></li>
@@ -61,7 +61,12 @@
             <li class="indicator"></li>
           </ul>
         </section>
+        <section id="mode-wrap" data-mode="day">
+          <i class="fa-solid fa-sun d-none" id="sun"></i>
+          <i class="fa-solid fa-moon" id="moon"></i>
+        </section>
       </nav>
+      
 
       <!-- main content -->
       <section class="row w-100 mx-0 px-0">
@@ -73,13 +78,13 @@
               <!-- profile -->
               <div class="card p-3 mb-4 rounded-0 shadow-sm" id="profile">
                 <img
-                  src="assets/images/profile.jpg"
+                  src="assets/images/profile-light.webp"
                   alt="a speckey in black and white"
                   class="card-img-top rounded-0"
                   id="profile-img"
                 />
                 <div class="mt-3">
-                  <h4 id="name">Mr.Thet_lin_han</h4>
+                  <h4 id="name" class="text-warning">Thet&bull;lin&bull;han</h4>
                   <div class="text-dark-50 text-muted d-flex justify-content-between">
                     <span>Web Developer</span>
                     <div class="d-flex">
@@ -95,16 +100,16 @@
                    </div>
                 </div>
                 <div class="my-3">
-                  <div>
+                  <div class="text-warning">
                     <i class="fas fa-envelope me-3"></i
                     ><span id="email-me">thethan.code@gmail.com</span>
                   </div>
-                  <div>
+                  <div class="text-warning">
                     <i class="fas fa-phone me-3"></i>
                     <span id="phone-me">09 795375879</span>
                   </div>
                 </div>
-                <p class="text-align-left text-black-50">
+                <p class="text-align-left">
                   A self motivated, paced and taught web developer with some experience in building dynamic websites. UI templates and design enthusiast. An Energetic one.
                 </p>
               </div>

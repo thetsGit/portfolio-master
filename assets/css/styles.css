@@ -156,6 +156,34 @@ h1 {
   bottom: 3rem; 
   position: fixed;
   z-index: 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#luffy-head {
+  object-fit: contain;
+  object-position: center;
+}
+
+#profile, .card {
+  transition: all ease-in-out .5s;
+}
+
+#mode-wrap {
+  display: flex;
+  margin-top: .3rem;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out .5s;
+  border-radius: 50%;
+  box-shadow: 0 0 25px 0 #0001;
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: #000;
+  cursor: pointer;
 }
 
 .nav-wrap--main-wrap {
@@ -166,10 +194,9 @@ h1 {
 .nav-wrap--main-btn-wrap {
   width: 3.5rem;
   height: 3.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--secondary-color);
+  background-image: url("../images/luffy-head.jpg");
+  background-size: contain;
+  background-position: center;
   color: #fff;
   border-radius: 50%;
   box-shadow: 0 0 25px 0 #0001;

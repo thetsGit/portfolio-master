@@ -10,10 +10,34 @@ const projectContents = document.querySelectorAll(".project-content");
 const contactAnimates = document.querySelectorAll(".contact-animate");
 const loadingState = document.getElementById("loading-state");
 const projectDates = document.querySelectorAll(".project-date");
+const modeControl = document.getElementById("mode-wrap");
+const sun = document.getElementById("sun");
+const moon = document.getElementById("moon");
+const profileImage = document.getElementById("profile-img");
 
   // toggle state
   loadingState.style.display = "none";
   mainContent.style.display = "block";
+
+  // night mode controller
+  modeControl.addEventListener("click", () => {
+    if (modeControl.dataset.mode === "night")
+    {
+      document.querySelector("link[href='assets/css/mdb/mdb.dark.min.css']").href = "assets/css/mdb/mdb.min.css";
+      sun.classList.add("d-none");
+      moon.classList.remove("d-none");
+      modeControl.style.backgroundColor = "#000";
+      modeControl.style.color = "#fff";
+      modeControl.dataset.mode = "day";
+    } else {
+      document.querySelector("link[href='assets/css/mdb/mdb.min.css']").href = "assets/css/mdb/mdb.dark.min.css";
+      sun.classList.remove("d-none");
+      moon.classList.add("d-none");
+      modeControl.style.backgroundColor = "#ffc10720";
+      modeControl.style.color = "#ffc107";
+      modeControl.dataset.mode = "night";
+    }
+  });
 
   // animations
   const splitChars = (text) =>
@@ -39,18 +63,16 @@ const projectDates = document.querySelectorAll(".project-date");
   })
   .add({
     targets: "#name>span",
-    translateY: -180,
+    // translateY: -80,
     translateX: 120,
     scale: 1.2,
-    color: "#fff",
     delay: anime.stagger(50, { start: 0 }),
   })
   .add({
     targets: "#email-me>span,#phone-me>span",
-    translateY: -200,
+    // translateY: -100,
     translateX: 100,
     scale: 1.2,
-    color: "#fff",
     delay: anime.stagger(50, { start: 0 }),
   });
   projectContents.forEach((projectContent, index, listObj) => {
@@ -103,9 +125,12 @@ const projectDates = document.querySelectorAll(".project-date");
   });
   });
 
+
   console.log("Hello! This is Thethan.");
+  console.log("I'm a passionate Web Developer.");
   console.log("Nice to meet ya.");
-  console.log("You can get the source code via my github<3");
+  console.log("You can get this website's source code via my github<3");
+  console.log("Contact me via email || linkedin");
   console.log("Have a good day.");
 
   new VenoBox({
