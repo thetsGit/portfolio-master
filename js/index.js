@@ -68,14 +68,14 @@ const education = document.getElementById("internships");
     // translateY: -80,
     translateX: 120,
     scale: 1.2,
-    delay: anime.stagger(50, { start: 0 }),
+    delay: anime.stagger(30, { start: 0 }),
   })
   .add({
     targets: "#email-me>span,#phone-me>span",
     // translateY: -100,
     translateX: 100,
     scale: 1.2,
-    delay: anime.stagger(50, { start: 0 }),
+    delay: anime.stagger(30, { start: 0 }),
   });
 
   sheets.forEach((sheet, index, listObj) => {
@@ -121,7 +121,7 @@ const education = document.getElementById("internships");
               translateY: [-100, 0],
               delay: anime.stagger(200),
             },
-            1000
+            700
           )
           .add(
             {
@@ -129,7 +129,7 @@ const education = document.getElementById("internships");
               opacity: [0, 1],
               translateY: [100, 0],
             },
-            1000
+            700
           )
           .add(
             {
@@ -138,7 +138,7 @@ const education = document.getElementById("internships");
               opacity: [0,1],
               translateX: [500, 0],
             },
-            1000
+            700
           );
       }
       this.destroy();
