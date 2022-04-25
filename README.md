@@ -7,7 +7,6 @@
 CS50 is pretty popular among young people in Myanmar. And I decided to take this course on Feb 27. During Match I alomst did nothing about it due to my internship's project. But in April, I got a lot of time, especially thingyan and in April 23, I completed my final project and got my certificate in one go.
 
 #### Description
-
  This is my CS50x2022 final project called portfolioX.
  This is just versioning the existing old funky portfolio website into more engaging real one like by adding new features and sections as well as modifying the existing ones. I once have developed a portfolio website, actually a challenge from front-end-mentor.
  But back then, it was just a mini website filled with fake data, with very little features and sections.
