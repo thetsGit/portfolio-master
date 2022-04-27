@@ -8,9 +8,9 @@ CS50 is pretty popular among young people in Myanmar. And I decided to take this
 
 #### Description
  This is my CS50x2022 final project called portfolioX.
- This is just versioning the existing old funky portfolio website into more engaging real one by means of adding new features and sections as well as modifying the existing ones. I once had developed a portfolio website, actually a challenge from front-end-mentor.
- But back then, it was just a mini website filled with fake data, with very little features and sections.
- But I came to need a portfolio website to showcase my portfolio.
+ This is just versioning the existing old funky portfolio website into more engaging real one by means of adding new features and sections as well as modifying the existing ones. I once had developed a portfolio website, literally as a challenge from the front-end-mentor.
+ But back then, it was just a mini website filled with fake data as well as with very little features and sections.
+ Hence, I came to need a portfolio website to showcase my portfolio, especially my personal projects which can facilitate my career in many ways.
 
 ## Structures
 This website is made up of 8 main sections
@@ -24,21 +24,11 @@ This website is made up of 8 main sections
 - Hobbies
 - Projects
 
-In profile section, I've presented an image(Luffy this timexD), my name, email, phone number, a brief about me and social links to linkedin and gihub.
-In skills section, I've presented my skills mainly in two sections(frontend and backend) and a brief in others and design sections.
-In project section, I've placed my top five favourite projects
-- Savannah - online fashion shop
-- Healthy - your diet partner
--  Xplore Travel agency website
-- Facebit - facebook ui in css3
-- CinieBookie - ios cinema booking app)
-I personally developed along my journey.
-
 ## Highlights
 - Navigator
-There's the Luffy'head(the navigator) you could find on bottom right corner which will help you to poke around the website very quickly and easily. I've implemented this feature in pure CSS3 for style and used transition and transform attributes for animation
-- modeToggler
-There's also a button called mode toggler which you could find helpful to toggle modes(dark and light). It's implemented using CSS3 for style and javascript for dom manipulation
+There's the Luffy's head(the navigator) you could find on the bottom right corner which would help you to poke around the website very quickly and easily. It's implemented in pure CSS3 and used animated in terms of transition and transform css attributes.
+- Mode Toggler
+Obviously, just a button called mode toggler which you could find handy to toggle modes(dark and light). It's just implemented in terms of DomApi and CSS3.
 
 ## Technologies used:
 
@@ -50,15 +40,14 @@ There's also a button called mode toggler which you could find helpful to toggle
 - Progress-bar-counter
 - AnimeJS
 
-
 ## How to enjoy
-You can enjoy my website by visiting this link => thetsgit.github.io/portfolio-master/
+You can enjoy this website via thetsgit.github.io/portfolio-master/
 
 ## Possible Improvements
-In the future, I would need to expand this website into multiple pages like blogs, work experiences and more likely, to redevelop it using modern stacks like React, Laravel and NextJS.
+In the future, I would need to expand this website into multiple pages like blogs, work experiences and alike, and more likely to redevelop it using modern stacks like React, Laravel and NextJS.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Completed
+## Completed 
 I've completed this project in 23th April 2022
