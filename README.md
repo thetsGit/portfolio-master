@@ -4,7 +4,7 @@
  You can watch my presentation video right there: https://www.youtube.com/watch?v=oTq11w_zjxc
 
 #### Behind the story
-CS50 is pretty popular among young people in Myanmar. And I decided to take this course on Feb 27. During Match I alomst did nothing about it due to my internship's project. But in April, I got a lot of time, especially thingyan and in April 23, I completed my final project and got my certificate in one go.
+CS50 is pretty popular among young people in Myanmar. And I decided to take this course on Feb 27. During Match I alomst did nothing about it due to my internship's project. But in April, I got a lot of time, especially in Thingyan then in April 23, I completed my final project and got my certificate in one go.
 
 #### Description
  This is my CS50x2022 final project called portfolioX.
