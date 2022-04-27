@@ -8,7 +8,7 @@ CS50 is pretty popular among young people in Myanmar. And I decided to take this
 
 #### Description
  This is my CS50x2022 final project called portfolioX.
- This is just versioning the existing old funky portfolio website into more engaging real one like by adding new features and sections as well as modifying the existing ones. I once have developed a portfolio website, actually a challenge from front-end-mentor.
+ This is just versioning the existing old funky portfolio website into more engaging real one by means of adding new features and sections as well as modifying the existing ones. I once have developed a portfolio website, actually a challenge from front-end-mentor.
  But back then, it was just a mini website filled with fake data, with very little features and sections.
  But I came to need a portfolio website to showcase my portfolio.
 
