@@ -31,6 +31,8 @@ const education = document.getElementById("internships");
       modeControl.style.backgroundColor = "#000";
       modeControl.style.color = "#fff";
       modeControl.dataset.mode = "day";
+      modeControl.title = "Nox!";
+      document.body.style.backgroundColor = "";
     } else {
       document.querySelector("link[href='assets/css/mdb/mdb.min.css']").href = "assets/css/mdb/mdb.dark.min.css";
       sun.classList.remove("d-none");
@@ -38,6 +40,8 @@ const education = document.getElementById("internships");
       modeControl.style.backgroundColor = "#ffc10720";
       modeControl.style.color = "#ffc107";
       modeControl.dataset.mode = "night";
+      modeControl.title = "Lumos!"
+      document.body.style.backgroundColor = "#212121";
     }
   });
 
@@ -59,9 +63,12 @@ const education = document.getElementById("internships");
   profileAnime
   .add({
     targets: "#profile-img",
-    rotate: "3turn",
+    rotateX: "3turn",
+    rotateY: "2turn",
+    rotateZ: "1turn",
     scale: [{ value: 0.1 }, { value: 1 }],
     delay: 2000,
+    duration: 1000
   })
   .add({
     targets: "#name>span",
@@ -152,7 +159,7 @@ const education = document.getElementById("internships");
   console.log("I'm a passionate Web Developer.");
   console.log("Nice to meet ya.");
   console.log("You can get this website's source code via my github<3");
-  console.log("Contact me via email || linkedin");
+  console.log("Kindly Contact me via email || linkedin");
   console.log("Have a good day.");
 
   new VenoBox({
