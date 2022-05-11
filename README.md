@@ -4,6 +4,9 @@
 #### Video Demo
 [youtube](https://www.youtube.com/watch?v=oTq11w_zjxc)
 
+#### Project Demo
+[portfolioX](thetsgit.github.io/portfolio-master/)
+
 #### Behind the story
 > CS50 is pretty popular among young people in Myanmar. 
 > As a consequence, I decided to take this course on Feb 27. 
@@ -47,9 +50,6 @@ _Obviously, just a button called mode toggler which you could find handy to togg
 * DomApi
 * Progress-bar-counter
 * AnimeJS
-
-## How to enjoy
-[demo](thetsgit.github.io/portfolio-master/)
 
 ## Possible Improvements
 In the future, I would need to expand this website into multiple pages like blogs, work experiences and alike, and more likely to redevelop it using modern stacks like React, Laravel and NextJS.
