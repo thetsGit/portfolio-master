@@ -5,7 +5,7 @@
 [youtube](https://www.youtube.com/watch?v=oTq11w_zjxc)
 
 #### Project Demo
-[portfolioX](thetsgit.github.io/portfolio-master/)
+[portfolioX](https://thetsgit.github.io/portfolio-master/)
 
 #### Behind the story
 > CS50 is pretty popular among young people in Myanmar. 
