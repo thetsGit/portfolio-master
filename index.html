@@ -43,8 +43,8 @@
     </section>
     <section class="container-xxl px-0 my-3" id="main-content">
 
-      <!-- floating navigator -->
       <nav class="nav-wrap">
+        <!-- floating navigator -->
         <section class="nav-wrap--main-wrap">
           <section class="nav-wrap--main-btn-wrap" data-bs-toggle="tooltip" data-bs-placement="left" title="To Navigate">
             <!-- <img src="assets/images/luffy-head.jpg" id="luffy-head" alt="luffy head"> -->
@@ -61,6 +61,7 @@
             <li class="indicator"></li>
           </ul>
         </section>
+        <!-- mode toggler -->
         <section id="mode-wrap" data-mode="day" data-bs-toggle="tooltip" data-bs-placement="top" title="Nox!">
           <i class="fa-solid fa-sun d-none" id="sun"></i>
           <i class="fa-solid fa-moon" id="moon"></i>
@@ -114,13 +115,12 @@
                 </p>
               </div>
             </div>
-
             
             <div
-              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 sheet-me"
+              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-none d-lg-flex sheet-me"
             >
               <!-- education -->
-              <div class="card p-3 mb-4  shadow-sm" id="education">
+              <div class="card p-3 mb-3  shadow-sm" id="education">
                 <h4 class="fw-normal mb-4">Education</h4>
                 <div class="d-flex mb-4">
                   <a href="https://www.facebook.com/UITMyanmar/" data-bs-toggle="tooltip" data-bs-placement="top" title="view UIT?">
@@ -137,10 +137,10 @@
             </div>
 
             <div
-              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 sheet-me"
+              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-none d-lg-flex sheet-me"
             >
               <!-- internships -->
-              <div class="card p-3 mb-4  shadow-sm" id="internships">
+              <div class="card p-3 mb-3 shadow-sm" id="internships">
                 <h4 class="fw-normal mb-4">Internships</h4>
                 <div class="d-flex mb-4">
                   <a href="https://www.nksoftwarehouse.com/" data-bs-toggle="tooltip" data-bs-placement="top" title="view NkSoftwareHouse?">
@@ -162,10 +162,91 @@
             </div>
 
             <div
-              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 sheet-me"
+            class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 sheet-me"
+            >
+              <!-- education -->
+              <div class="card p-3 mb-3 shadow-sm d-flex d-lg-none" id="education">
+                <h4 class="fw-normal mb-4">Education</h4>
+                <div class="d-flex mb-4">
+                  <a href="https://www.facebook.com/UITMyanmar/" data-bs-toggle="tooltip" data-bs-placement="top" title="view UIT?">
+                    <img class="logo" alt="university of Information Technology logo" src="./assets/images/uit-logo.jpg" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="text-muted fs-sm">
+                      January 2019 &middot; December 2024
+                    </div>
+                    <div class="fw-bold">BCSC web development, University of Information Technology</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- internships -->
+              <div class="card p-3 mb-3 shadow-sm d-flex d-lg-none" id="internships">
+                <h4 class="fw-normal mb-4">Internships</h4>
+                <div class="d-flex mb-4">
+                  <a href="https://www.nksoftwarehouse.com/" data-bs-toggle="tooltip" data-bs-placement="top" title="view NkSoftwareHouse?">
+                    <img class="logo" alt="NkSoftwareHouse logo" src="./assets/images/nksoftwarehouse.jpg" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="mb-3">
+                      <div class="text-muted fs-sm">
+                        March 2022 &middot; May 2022
+                      </div>
+                      <div class="fw-bold">Front-end Developer</div>
+                    </div>
+                    <div class="text-muted">
+                      Helped and integrated in Delivery System Application as a React Developer intern.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- languages -->
+              <div class="card p-3 mb-3 shadow-sm" id="languages">
+                <h4 class="fw-normal mb-4">Spoken Languages</h4>
+                <div class="d-flex mb-4 align-items-center">
+                  <a href="https://en.wikipedia.org/wiki/Burmese_language" data-bs-toggle="tooltip" data-bs-placement="top" title="explore burmese?">
+                    <img class="logo" alt="myanmar flag" src="./assets/images/flags/myanmar-flag.png" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="fw-bold">
+                      Burmese
+                    </div>
+                    <div class="d-flex star-wrap text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex mb-4">
+                  <a href="https://en.wikipedia.org/wiki/English_language" data-bs-toggle="tooltip" data-bs-placement="top" title="explore english?">
+                    <img class="logo" alt="american flag" src="./assets/images/flags/american-flag.webp" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="fw-bold">
+                    English
+                    </div>
+                    <div class="d-flex star-wrap text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star star-muted"></i>
+                      <i class="fa-solid fa-star star-muted"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div
+              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-none d-lg-block sheet-me"
             >
               <!-- certifications -->
-              <div class="card p-3 mb-4  shadow-sm" id="certificates">
+              <div class="card p-3 mb-4 shadow-sm" id="certificates">
                 <h4 class="fw-normal mb-4">Certifications</h4>
                  <!-- cs50 -->
                  <div class="d-flex mb-4">
@@ -220,22 +301,6 @@
                 </div>
                 <!-- coursera 3  -->
                 <div class="d-flex mb-4">
-                  <a href="https://www.coursera.org/account/accomplishments/verify/JQSNCW2FG8RX?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
-                    <img class="logo" alt="Coursera logo" src="./assets/images/certificates/coursera.png" />
-                  </a>
-                  <div class="ms-3">
-                    <div class="mb-3">
-                      <div class="text-muted fs-sm">
-                        July 2020 &middot; Current
-                      </div>
-                      <div class="fw-bold">Programming For Everybody</div>
-                      <div class="text-muted">
-                        Achieved from Coursera
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="d-flex mb-4">
                   <a href="https://www.coursera.org/account/accomplishments/verify/5GTJPM3L5WF2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
                     <img class="logo" alt="Coursera logo" src="./assets/images/certificates/coursera.png" />
                   </a>
@@ -267,46 +332,19 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 sheet-me"
-            >
-              <!-- languages -->
-              <div class="card p-3 mb-4  shadow-sm" id="languages">
-                <h4 class="fw-normal mb-4">Spoken Languages</h4>
-                <div class="d-flex mb-4 align-items-center">
-                  <a href="https://en.wikipedia.org/wiki/Burmese_language" data-bs-toggle="tooltip" data-bs-placement="top" title="explore burmese?">
-                    <img class="logo" alt="myanmar flag" src="./assets/images/flags/myanmar-flag.png" />
-                  </a>
-                  <div class="ms-3">
-                    <div class="fw-bold">
-                      Burmese
-                    </div>
-                    <div class="d-flex star-wrap text-warning">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                    </div>
-                  </div>
-                </div>
                 <div class="d-flex mb-4">
-                  <a href="https://en.wikipedia.org/wiki/English_language" data-bs-toggle="tooltip" data-bs-placement="top" title="explore english?">
-                    <img class="logo" alt="american flag" src="./assets/images/flags/american-flag.webp" />
+                  <a href="https://www.coursera.org/account/accomplishments/verify/JQSNCW2FG8RX?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" data-bs-toggle="tooltip" data-bs-placement="top" title="view certificate?">
+                    <img class="logo" alt="Coursera logo" src="./assets/images/certificates/coursera.png" />
                   </a>
                   <div class="ms-3">
-                    <div class="fw-bold">
-                    English
-                    </div>
-                    <div class="d-flex star-wrap text-warning">
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star star-muted"></i>
-                      <i class="fa-solid fa-star star-muted"></i>
+                    <div class="mb-3">
+                      <div class="text-muted fs-sm">
+                        July 2020 &middot; Current
+                      </div>
+                      <div class="fw-bold">Programming For Everybody</div>
+                      <div class="text-muted">
+                        Achieved from Coursera
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -315,7 +353,7 @@
             
 
             <!-- Hobbies -->
-            <div class="col-lg-12 col-md-6 col-12 mx-0 ps-md-2 px-lg-0 pe-md-0 px-0 sheet-me" id="hobbies">
+            <div class="col-lg-12 col-md-6 col-12 d-lg-flex d-none mx-0 ps-md-2 px-lg-0 pe-md-0 px-0 sheet-me" id="hobbies">
               <div class="card p-3 mb-4  shadow-sm">
                 <h4 class="fw-normal mb-4">Hobbies</h4>
                 <div>
@@ -351,7 +389,7 @@
               </div>
             </div>
 
-            <div class="col-lg-12 col-md-6 col-12 mx-0 ps-md-2 px-lg-0 pe-md-0 px-0 sheet-me" id="hobbies">
+            <div class="col-lg-12 col-md-12 text-md-center col-12 mx-0 ps-md-2 px-lg-0 pe-md-0 px-0 sheet-me" id="hobbies">
               <!-- quote -->
               <div class="card p-4 mb-4 sheet-me">
                 <p class="p-0 m-0"><i class="fa-solid fa-quote-left me-2"></i>If life was a game, happiness would be what we hafta collect.<i class="fa-solid fa-quote-right ms-2"></i></p>

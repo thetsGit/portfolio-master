@@ -15,7 +15,7 @@ const sun = document.getElementById("sun");
 const moon = document.getElementById("moon");
 const profileImage = document.getElementById("profile-img");
 const sheets = document.querySelectorAll(".sheet-me");
-const education = document.getElementById("internships");
+const navBtn = document.getElementsByClassName("nav-wrap--main-wrap");
 
   // toggle state
   loadingState.style.display = "none";
