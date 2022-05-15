@@ -315,7 +315,7 @@ h1 {
 }
 
 .project-image {
-  filter: blur(3px);
+  filter: grayscale(1) blur(3px);
 }
 
 .project-image:hover {
