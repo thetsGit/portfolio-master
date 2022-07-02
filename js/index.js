@@ -33,6 +33,8 @@ const navBtn = document.getElementsByClassName("nav-wrap--main-wrap");
       modeControl.dataset.mode = "day";
       modeControl.title = "Nox!";
       document.body.style.backgroundColor = "";
+      document.querySelector(".exp-each-last").style.backgroundColor = "#fff";
+      document.querySelector(".vr").style.display = "inline-block";
     } else {
       document.querySelector("link[href='assets/css/mdb/mdb.min.css']").href = "assets/css/mdb/mdb.dark.min.css";
       sun.classList.remove("d-none");
@@ -42,6 +44,8 @@ const navBtn = document.getElementsByClassName("nav-wrap--main-wrap");
       modeControl.dataset.mode = "night";
       modeControl.title = "Lumos!"
       document.body.style.backgroundColor = "#212121";
+      document.querySelector(".exp-each-last").style.backgroundColor = "transparent";
+      document.querySelector(".vr").style.display = "none";
     }
   });
 
