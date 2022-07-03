@@ -333,6 +333,7 @@ h1 {
   z-index: 100 !important;
   background-color: #fff; 
   margin-bottom: 0 !important;
+  padding-bottom: 1rem;
 }
 
 .vr-me {
