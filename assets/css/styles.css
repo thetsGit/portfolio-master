@@ -163,7 +163,7 @@ h1 {
   align-items: center;
 }
 
-#luffy-head {
+#profile-img, #luffy-head {
   object-fit: contain;
   object-position: center;
 }
@@ -278,33 +278,30 @@ h1 {
 
 /* indicator animation */
 .nav-wrap--main-content > .nav-item:nth-child(1):hover ~ .indicator {
-  transform: translateY(-24rem);
-}
-.nav-wrap--main-content > .nav-item:nth-child(2):hover ~ .indicator {
   transform: translateY(-21rem);
 }
-.nav-wrap--main-content > .nav-item:nth-child(3):hover ~ .indicator {
+.nav-wrap--main-content > .nav-item:nth-child(2):hover ~ .indicator {
   transform: translateY(-18rem);
 }
-.nav-wrap--main-content > .nav-item:nth-child(4):hover ~ .indicator {
+.nav-wrap--main-content > .nav-item:nth-child(3):hover ~ .indicator {
   transform: translateY(-15rem);
 }
-.nav-wrap--main-content > .nav-item:nth-child(5):hover ~ .indicator {
+.nav-wrap--main-content > .nav-item:nth-child(4):hover ~ .indicator {
   transform: translateY(-12rem);
 }
-.nav-wrap--main-content > .nav-item:nth-child(6):hover ~ .indicator {
+.nav-wrap--main-content > .nav-item:nth-child(5):hover ~ .indicator {
   transform: translateY(-9rem);
 }
-.nav-wrap--main-content > .nav-item:nth-child(7):hover ~ .indicator {
+.nav-wrap--main-content > .nav-item:nth-child(6):hover ~ .indicator {
   transform: translateY(-6rem);
 }
-.nav-wrap--main-content > .nav-item:nth-child(8):hover ~ .indicator {
+.nav-wrap--main-content > .nav-item:nth-child(7):hover ~ .indicator {
   transform: translateY(-3rem);
 }
 
 .nav-wrap--main-wrap:hover > .nav-wrap--main-content {
   padding: .3rem;
-  height: 28.1rem;
+  height: 25.1rem;
   left: 0;
   bottom: 0;
 }

@@ -41,22 +41,22 @@
         <span class="visually-hidden">Loading...</span>
       </div>
     </section>
-    <section class="container-xxl px-0 my-3" id="main-content">
+    <section class="container-xxl px-0 my-3 p-0 p-md-3" id="main-content">
 
       <nav class="nav-wrap">
         <!-- floating navigator -->
-        <section class="nav-wrap--main-wrap">
+        <section class="nav-wrap--main-wrap d-block d-md-none d-lg-block">
           <section class="nav-wrap--main-btn-wrap" data-bs-toggle="tooltip" data-bs-placement="left" title="To Navigate">
             <!-- <img src="assets/images/luffy-head.jpg" id="luffy-head" alt="luffy head"> -->
           </section>
           <ul class="nav-wrap--main-content">
             <li class="nav-item"><a class="nav-link" href="#profile" data-bs-toggle="tooltip" data-bs-placement="left" title="Profile"><i class="fa-solid fa-user-ninja"></i></a></li>
             <li class="nav-item"><a class="nav-link" href="#skills" data-bs-toggle="tooltip" data-bs-placement="left" title="Skills"><i class="fa-solid fa-bars-progress"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="#education" data-bs-toggle="tooltip" data-bs-placement="left" title="Education"><i class="fa-solid fa-graduation-cap"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="#internships" data-bs-toggle="tooltip" data-bs-placement="left" title="Internships"><i class="fa-solid fa-briefcase"></i></a></li>
-            <li class="nav-item"><a class="nav-link" href="#hobbies" data-bs-toggle="tooltip" data-bs-placement="left" title="Hobbies"><i class="fa-solid fa-person-swimming"></i><span class="count-wrap">3</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#certificates" data-bs-toggle="tooltip" data-bs-placement="left" title="Certificates"><i class="fa-solid fa-copy"></i><span class="count-wrap">5</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#languages" data-bs-toggle="tooltip" data-bs-placement="left" title="Languages"><i class="fa-solid fa-language"></i><span class="count-wrap">2</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#education" data-bs-toggle="tooltip" data-bs-placement="left" title="Education"><i class="fa-solid fa-graduation-cap"></i><span class="count-wrap">2</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#experiences" data-bs-toggle="tooltip" data-bs-placement="left" title="Experiences"><i class="fa-solid fa-briefcase"></i><span class="count-wrap">3</span></a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#hobbies" data-bs-toggle="tooltip" data-bs-placement="left" title="Hobbies"><i class="fa-solid fa-person-swimming"></i><span class="count-wrap">3</span></a></li> -->
+            <li class="nav-item"><a class="nav-link" href="#certificates" data-bs-toggle="tooltip" data-bs-placement="left" title="Certificates"><i class="fa-solid fa-copy"></i><span class="count-wrap">3</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#languages" data-bs-toggle="tooltip" data-bs-placement="left" title="Languages"><i class="fa-solid fa-language"></i><span class="count-wrap">3</span></a></li>
             <li class="nav-item"><a class="nav-link" href="#projects" data-bs-toggle="tooltip" data-bs-placement="left" title="Personal Projects"><i class="fa-solid fa-code"></i><span class="count-wrap">5</span></a></li>
             <li class="indicator"></li>
           </ul>
@@ -87,7 +87,7 @@
                 <div class="mt-3">
                   <h4 id="name" class="text-warning">Thet&bull;lin&bull;han</h4>
                   <div class="text-dark-50 text-muted d-flex justify-content-between">
-                    <span>Web Developer</span>
+                    <span>A Web Developer</span>
                     <div class="d-flex">
                       <a href="https://www.linkedin.com/in/thet-lin-han-0a5693227/" class="social-wrap linkedin" data-bs-toggle="tooltip" data-bs-placement="top" title="projects' videos">
                         <i class="fa-brands fa-linkedin"></i>
@@ -118,7 +118,7 @@
             
             <!-- education -->
             <div
-              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-none d-lg-flex sheet-me"
+              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-flex d-md-none d-lg-flex sheet-me"
             >
               <div class="card p-3 mb-3 shadow-sm" id="education">
                 <h4 class="fw-normal mb-4">Education</h4>
@@ -128,16 +128,30 @@
                   </a>
                   <div class="ms-3">
                     <div class="text-muted fs-sm">
-                      January 2019 &middot; December 2024
+                      January 2019 &middot; Suspended politically
                     </div>
                     <div class="fw-bold">BCSC web development, University of Information Technology</div>
                   </div>
                 </div>
+
+                <!-- sfu -->
+                <div class="d-flex mb-4">
+                  <a href="https://www.facebook.com/StrategyFirstUniversity" data-bs-toggle="tooltip" data-bs-placement="top" title="view SFU?">
+                    <img class="logo" alt="strategy first university logo" src="./assets/images/sfu-logo.jpeg" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="text-muted fs-sm">
+                      June 2022 &middot; Present
+                    </div>
+                    <div class="fw-bold">BSc (hons), Information Technology in Business</div>
+                  </div>
+                </div>
+
               </div>
             </div>
 
              <!-- internships -->
-            <div
+            <!-- <div
               class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-none d-lg-flex sheet-me"
             >
               <div class="card p-3 mb-3 shadow-sm" id="internships">
@@ -159,11 +173,11 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- experiences -->
             <div
-              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-none d-lg-flex sheet-me"
+              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-flex d-md-none d-lg-flex sheet-me"
             >
               <div class="card p-3 mb-3 shadow-sm" id="experiences">
                 <h4 class="fw-normal mb-4">Experiences</h4>
@@ -174,6 +188,23 @@
                   <!-- vertical rule -->
                   <div class="vr vr-me"></div>
 
+                  <!-- nk software house -->
+                  <div class="d-flex mb-4 exp-each">
+                    <a href="https://www.nksoftwarehouse.com/" data-bs-toggle="tooltip" data-bs-placement="top" title="view NkSoftwareHouse?">
+                      <img class="logo" alt="NK logo" src="./assets/images/nksoftwarehouse.jpg" />
+                    </a>
+                    <div class="ms-3">
+                      <div class="mb-3">
+                        <div class="text-muted fs-sm">
+                          Mar 2022 &middot; June 2022
+                        </div>
+                        <div class="fw-bold">React JS Intern</div>
+                      </div>
+                      <div class="text-muted">
+                        Helped and integrated in Delivery System Application as a React Developer intern.
+                      </div>
+                    </div>
+                  </div>
 
                   <!-- pantech -->
                   <div class="d-flex mb-4 exp-each">
@@ -188,7 +219,7 @@
                         <div class="fw-bold">Front-end Web Developer</div>
                       </div>
                       <div class="text-muted">
-                        Customized moodle learning platform for a University.
+                        Customized moodle learning platform for a university.
                       </div>
                     </div>
                   </div>
@@ -206,7 +237,7 @@
                         <div class="fw-bold">React JS Developer</div>
                       </div>
                       <div class="text-muted">
-                        React JS developer at DSS Corp
+                        Developing US/Korean based web apps along with DSS team
                       </div>
                     </div>
                   </div>
@@ -221,23 +252,39 @@
             class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 sheet-me"
             >
               <!-- education -->
-              <div class="card p-3 mb-3 shadow-sm d-flex d-lg-none" id="education">
+              <div class="card p-3 mb-3 shadow-sm d-none d-md-flex d-lg-none" id="education">
                 <h4 class="fw-normal mb-4">Education</h4>
+
+                <!-- uit -->
                 <div class="d-flex mb-4">
                   <a href="https://www.facebook.com/UITMyanmar/" data-bs-toggle="tooltip" data-bs-placement="top" title="view UIT?">
                     <img class="logo" alt="university of Information Technology logo" src="./assets/images/uit-logo.jpg" />
                   </a>
                   <div class="ms-3">
                     <div class="text-muted fs-sm">
-                      January 2019 &middot; December 2024
+                      January 2019 &middot; Suspended politically
                     </div>
                     <div class="fw-bold">BCSC web development, University of Information Technology</div>
                   </div>
                 </div>
+
+                <!-- sfu -->
+                <div class="d-flex mb-4">
+                  <a href="https://www.facebook.com/StrategyFirstUniversity" data-bs-toggle="tooltip" data-bs-placement="top" title="view SFU?">
+                    <img class="logo" alt="strategy first university logo" src="./assets/images/sfu-logo.jpeg" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="text-muted fs-sm">
+                      June 2022 &middot; Present
+                    </div>
+                    <div class="fw-bold">BSc(hons), Information Technology in Business</div>
+                  </div>
+                </div>
+
               </div>
 
               <!-- experiences -->
-              <div class="card p-3 mb-3 shadow-sm d-flex d-lg-none" id="internships">
+              <div class="card p-3 mb-3 shadow-sm d-none d-md-flex d-lg-none" id="experiences">
                 <h4 class="fw-normal mb-4">Experiences</h4>
 
                 <!-- pantech -->
@@ -315,12 +362,29 @@
                     </div>
                   </div>
                 </div>
+                <div class="d-flex mb-4 align-items-center">
+                  <a href="https://en.wikipedia.org/wiki/Japanese_language" data-bs-toggle="tooltip" data-bs-placement="top" title="explore japanese?">
+                    <img class="logo" alt="japanese flag" src="./assets/images/flags/japanese-flag.webp" />
+                  </a>
+                  <div class="ms-3">
+                    <div class="fw-bold">
+                      Japanese
+                    </div>
+                    <div class="d-flex star-wrap text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star star-muted"></i>
+                      <i class="fa-solid fa-star star-muted"></i>
+                      <i class="fa-solid fa-star star-muted"></i>
+                      <i class="fa-solid fa-star star-muted"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
 
             </div>
 
             <div
-              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-none d-lg-block sheet-me"
+              class="col-lg-12 col-md-6 col-12 mx-0 ps-md-0 pe-md-2 px-0 px-lg-0 d-block d-md-none d-lg-block sheet-me"
             >
               <!-- certifications -->
               <div class="card p-3 mb-4 shadow-sm" id="certificates">
@@ -1009,7 +1073,7 @@
             </div>
 
             <!-- adobexd project -->
-            <div class="card p-3 mb-2  shadow-sm" id="project-4">
+            <!-- <div class="card p-3 mb-2  shadow-sm" id="project-4">
               <div class="row w-100 mx-0 p-0">
                 <div class="col-md-5 col-12 p-0 m-0  project-img card p-1 shadow-sm">
                   <a class="venobox" href="assets/images/websites-ss/cinema-booking.jpeg" data-gall="myGallery">
@@ -1031,7 +1095,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
              <!-- more -->
              <div class="card p-3 mb-2  shadow-sm" id="project-5">

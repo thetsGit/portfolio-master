@@ -15,7 +15,8 @@ const sun = document.getElementById("sun");
 const moon = document.getElementById("moon");
 const profileImage = document.getElementById("profile-img");
 const sheets = document.querySelectorAll(".sheet-me");
-const navBtn = document.getElementsByClassName("nav-wrap--main-wrap");
+const navList = document.querySelector(".nav-wrap--main-content");
+
 
   // toggle state
   loadingState.style.display = "none";
@@ -35,6 +36,7 @@ const navBtn = document.getElementsByClassName("nav-wrap--main-wrap");
       document.body.style.backgroundColor = "";
       document.querySelector(".exp-each-last").style.backgroundColor = "#fff";
       document.querySelector(".vr").style.display = "inline-block";
+      navList.style.backgroundColor = "#fff";
     } else {
       document.querySelector("link[href='assets/css/mdb/mdb.min.css']").href = "assets/css/mdb/mdb.dark.min.css";
       sun.classList.remove("d-none");
@@ -46,6 +48,7 @@ const navBtn = document.getElementsByClassName("nav-wrap--main-wrap");
       document.body.style.backgroundColor = "#212121";
       document.querySelector(".exp-each-last").style.backgroundColor = "transparent";
       document.querySelector(".vr").style.display = "none";
+      navList.style.backgroundColor = "#000";
     }
   });
 
